@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Aqui configuramos nosso Design System (Fontes e Cores) */
+@theme {
+  --font-display: "Playfair Display", serif; /* Fonte para títulos */
+  --font-sans: "Inter", sans-serif;          /* Fonte para textos */
+  
+  --color-velvet-black: #0a0a0a;
+  --color-velvet-gray: #888888;
+  --color-velvet-white: #f3f3f3;
+}
+
+/* Reset global básico */
+html, body {
+  background-color: var(--color-velvet-black);
+  color: var(--color-velvet-white);
+  font-family: var(--font-sans);
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Evita scroll horizontal indesejado */
+}
