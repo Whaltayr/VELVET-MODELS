@@ -1,6 +1,7 @@
 // src/pages/Scouting.jsx
 import React,{useState} from 'react';
 import {gsap} from 'gsap';
+import ClimbImage from '../assets/img/art-1.png'
 
 export default function Scouting() { // <--- A palavra-chave 'default' é obrigatória aqui
 
@@ -61,7 +62,7 @@ export default function Scouting() { // <--- A palavra-chave 'default' é obriga
                     <div className="h-64 w-full rounded-lg overflow-hidden relative">
                          {/* Imagem decorativa (Unsplash direto para facilitar) */}
                         <img 
-                            src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=2864&auto=format&fit=crop" 
+                            src={ClimbImage} 
                             alt="Scouting" 
                             className="w-full h-full object-cover opacity-80"
                         />

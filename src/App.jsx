@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Casting from "./pages/Casting";
 import Scouting from "./pages/Scouting";
+import ModelDetail from './pages/ModelDetail'; // <--- IMPORTANTE
 
 export default function App() {
   return (
@@ -16,6 +17,11 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/models" element={<Casting />} />
+
+        {/* 🛑 NOVA ROTA DINÂMICA
+              Os dois pontos ':' dizem ao React: "O que vier depois da barra é uma variável chamada modelName" 
+           */}
+          <Route path="/models/:modelName" element={<ModelDetail />} />
         <Route path="/join" element={<Scouting />} />
 
         {/* Boa pratica : rota 404 para URLs que não existem */}
