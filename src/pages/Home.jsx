@@ -10,10 +10,10 @@ import heroImage from "../assets/img/hero-model.png";
 gsap.registerPlugin(ScrollTrigger);
 // Este array deve ficar DENTRO de Home.jsx, logo ANTES da função export default
 const featuredModels = [
-  { id: 1, name: "Ava", tag: "Editorial", image: "url_para_img_1" },
-  { id: 2, name: "Liam", tag: "Passarela", image: "url_para_img_2" },
-  { id: 3, name: "Zara", tag: "Comercial", image: "url_para_img_3" },
-  { id: 4, name: "Caius", tag: "Fitness", image: "url_para_img_4" },
+  { id: 1, name: "Ava", tag: "Editorial", image: "url_ava" },
+  { id: 2, name: "Liam", tag: "Passarela", image: "url_liam" },
+  { id: 3, name: "Zara", tag: "Comercial", image: "url_zara" },
+  { id: 4, name: "Caius", tag: "Fitness", image: "url_caius" },
 ];
 // NOTA: Vamos substituir 'url_para_img_x' por importações reais depois!
 
