@@ -5,7 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import ModelCard from "../components/ModelCard";
 import {Link} from 'react-router-dom'
 // Ajuste o nome do arquivo se for diferente do 'hero-model.jpg'
-import heroImage from "../assets/img/hero-model.png";
+import heroImage from "../assets/img/hero-model.webp";
 
 gsap.registerPlugin(ScrollTrigger);
 // Este array deve ficar DENTRO de Home.jsx, logo ANTES da função export default

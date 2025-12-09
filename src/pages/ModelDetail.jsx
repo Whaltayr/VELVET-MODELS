@@ -5,18 +5,18 @@ import { ArrowLeft } from "lucide-react"; // Ícone de voltar
 
 // 🛑 IMPORTANTE: Em um app real, isso viria de um arquivo separado ou API.
 // Para hoje, vamos repetir o array aqui para simular o banco de dados.
-import Model1 from "../assets/img/model-1.png";
-import Model2 from "../assets/img/model-2.png";
-import Model3 from "../assets/img/model-3.png";
-import Model4 from "../assets/img/model-4.png";
-import Model5 from "../assets/img/model-5.png";
-import Model6 from "../assets/img/model-6.png";
-import Model7 from "../assets/img/model-7.png";
-import Model8 from "../assets/img/model-8.png";
-import Model9 from "../assets/img/model-9.png";
-import Model10 from "../assets/img/model-10.png";
-import Model11 from "../assets/img/fit-model-1.png";
-import Model12 from "../assets/img/model-12.png";
+import Model1 from '../assets/img/model-1.webp';
+import Model2 from '../assets/img/model-2.webp';
+import Model3 from '../assets/img/model-3.webp';
+import Model4 from '../assets/img/model-4.webp';
+import Model5 from '../assets/img/model-5.webp';
+import Model6 from '../assets/img/model-6.webp';
+import Model7 from '../assets/img/model-7.webp';
+import Model8 from '../assets/img/model-8.webp';
+import Model9 from '../assets/img/model-9.webp';
+import Model10 from '../assets/img/model-10.webp';
+import Model11 from '../assets/img/fit-model-1.webp';
+import Model12 from '../assets/img/model-12.webp';
 // ... Importe as outras se tiver
 
 const allModels = [
@@ -119,7 +119,7 @@ const allModels = [
   bio: "Sora combina elegância e sensibilidade criativa, aparecendo em editoriais que exploram arte, luz e atmosfera.",
   image: Model12,
 },
-    
+
 
   // Adicione os outros modelos aqui...
 ];
