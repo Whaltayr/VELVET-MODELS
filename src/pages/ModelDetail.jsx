@@ -5,6 +5,7 @@ import { ArrowLeft } from "lucide-react"; // Ícone de voltar
 
 // 🛑 IMPORTANTE: Em um app real, isso viria de um arquivo separado ou API.
 // Para hoje, vamos repetir o array aqui para simular o banco de dados.
+
 import Model1 from '../assets/img/model-1.webp';
 import Model2 from '../assets/img/model-2.webp';
 import Model3 from '../assets/img/model-3.webp';
@@ -100,6 +101,15 @@ const allModels = [
   eyes: "Castanhos",
   bio: "Mia traz uma estética minimalista e sofisticada, perfeita para editoriais contemporâneos e retratos artísticos.",
   image: Model9,
+},
+  {
+  id: 10,
+  name: "Lucas",
+  tag: "Fitness",
+  height: "1.86m",
+  eyes: "Pretos",
+  bio: "Ella representa força, equilíbrio e energia, destacando-se em produções focadas em performance e bem-estar.",
+  image: Model10,
 },
 {
   id: 11,
